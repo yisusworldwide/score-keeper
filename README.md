@@ -25,3 +25,5 @@ npm run dev
 
 ### URL
 Running in local:   http://127.0.0.1:5173/
+
+Side Note: since the installation of the project with Vite created a new root folder, had an error popping due not finding 'package.json' when running up. You can either edit the root folder from which running the projet by "npm --prefix /path/to/project run" or step forward to the root folder "cd /path/to/project" and then again "npm run dev". 
