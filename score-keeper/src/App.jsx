@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <div>
-        <ScoreKeeper />
+        <ScoreKeeper numPlayers={5} target={5} />
       </div>
       
     </>
